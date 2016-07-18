@@ -15,7 +15,7 @@
  </form>
 	<?php
  		if (isset($_GET['en'])){
-        	//echo ('Hello World');
+        	//echo ('hello world');
         	$_SESSION['language']='en';
     	}
     	else if(isset($_GET['gr'])){
