@@ -14,7 +14,6 @@
 	<input type="submit" name="gr" value="Ελληνικά" />
  </form>
 	<?php
-
  		if (isset($_GET['en'])){
             //echo ('Hello World');
             $_SESSION['language']='en';
