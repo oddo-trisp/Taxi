@@ -5,7 +5,7 @@
     <meta name="author" content="Giorgos Apostolopoulos, Odysseas Trispiotis">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
-    <script src="assets/map.js"></script>
+    <script src="assets/js/map.js"></script>
     <title>PHP Test</title>
  </head>
  <body>
