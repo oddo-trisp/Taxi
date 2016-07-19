@@ -49,6 +49,11 @@ address{
     text-align: center;
 }
 
+#about img{
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+}
 
 
 
