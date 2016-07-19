@@ -9,16 +9,17 @@
  <?php
     session_start();
 ?>
- <form action="<?php echo $_SERVER['PHP_SELF']; ?>">
+<form method="GET">
+<!-- <form action="<?php echo $_SERVER['PHP_SELF']; ?>">-->
 	<input type="submit" name="en" value="English" />
 	<input type="submit" name="gr" value="Ελληνικά" />
  </form>
 	<?php
- 		if (isset($_GET['en'])){
+ 		if (isset($_REQUEST['en'])){
             //echo ('Hello World');
             $_SESSION['language']='en';
         }
-        else if(isset($_GET['gr'])){
+        else if(isset($_REQUEST['gr'])){
             $_SESSION['language']='gr';
             //echo ('Γεια σου κόσμε');
         }
