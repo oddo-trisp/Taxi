@@ -11,6 +11,12 @@
 
     <title>Business Frontpage - Start Bootstrap Template</title>
 
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="assets/map.js"></script>
+
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -45,13 +51,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -77,7 +83,7 @@
 
         <hr>
 
-        <div class="row">
+        <div class="row" id="about">
             <div class="col-sm-8">
                 <h2>What We Do</h2>
                 <p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
@@ -105,26 +111,39 @@
 
         <hr>
 
-        <div class="row">
+        <div class="row" id="services">
+            <h2>Services:</h2>
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Marketing Box #1</h2>
+                <h3>Marketing Box #1</h3>
                 <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
             </div>
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Marketing Box #2</h2>
+                <h3>Marketing Box #2</h3>
                 <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Marketing Box #3</h2>
+                <h3>Marketing Box #3</h3>
                 <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
         </div>
-        <!-- /.row -->
 
         <hr>
+
+        <div class="row" id="contact">
+            <h2>Find Us:</h2>
+            <!--<a href="http://www.accuweather.com/en/gr/itea/183561/weather-forecast/183561" class="aw-widget-legal"></a>
+            <div id="awcc1468922819136" class="aw-widget-current"  data-locationkey="183561" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1468922819136"></div>
+            <script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>-->
+            <center>
+                <div><input type="hidden" name="latitude" id="latitude" value="38.431084"></div>
+                <div><input type="hidden" name="longitude" id="longitude" value="22.425256"></div>
+                <div id="map" style="width:1080px;height:380px;"></div>
+            </center>
+        </div>
+        <!-- /.row -->
 
         <!-- Footer -->
         <footer>
