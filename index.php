@@ -152,8 +152,7 @@
                 <div><input type="hidden" name="longitude" id="longitude" value="22.425256"></div>
                 <div id="map"></div>
             </center>
-           <iframe scrolling="no" allowtransparency="true" frameborder="0" style="width: 1115px; height: 77px;"
-           src="http://www.weather.gr/widgets/weather_w4.aspx?p1=3146&amp;p2=20744&amp;p3=23263&amp;p4=3144&amp;p5=5"></iframe>
+           <iframe scrolling="no" allowtransparency="true" frameborder="0" style="width: 1115px; height: 77px;" src="http://www.weather.gr/en/widgets/weather_w4.aspx?p1=3146&amp;p2=20744&amp;p3=3145&amp;p4=3144&amp;p5=5"></iframe>
         </div>
         <!-- /.row -->
 
