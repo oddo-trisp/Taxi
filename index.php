@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>PHP Test</title>
- </head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="author" content="Giorgos Apostolopoulos, Odysseas Trispiotis">
+    <title>PHP Test</title>
+ </head>
  <body>
  <?php
     include 'header.php';
@@ -26,6 +26,7 @@
         echo ('Γεια σου κόσμε');
     }
 ?> 
- <a href="nums.php">Numbers</a>
+ <div><a href="nums.php">Numbers</a></div>
+ <div><a href="map.php">Map</a></div>
  </body>
 </html>

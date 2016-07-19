@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>PHP Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Giorgos Apostolopoulos, Odysseas Trispiotis">
+    <title>PHP Test</title>
  </head>
- 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- 	<meta name="author" content="Giorgos Apostolopoulos, Odysseas Trispiotis">
  <body>
 	<?php
         include 'header.php';
@@ -24,7 +24,7 @@
             //$_SESSION['language']='gr';
             echo ('ένα δύο τρία');
         }
-	?> 
+	?>
  
  </body>
 </html>
