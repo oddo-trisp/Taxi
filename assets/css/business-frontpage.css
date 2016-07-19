@@ -5,11 +5,17 @@
  */
 
 body {
+    text-align: center;
+    font-family: 'raleway';
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+h2{
+    margin-bottom: 3%;
+}
 
+
+/****************************************HEADER*********************************/
 .business-header {
     height: 400px;
     background: url('http://placehold.it/1920x400') center center no-repeat scroll;
@@ -19,17 +25,42 @@ body {
     -o-background-size: cover;
 }
 
-/* Customize the text color and shadow color and to optimize text legibility. */
-
 .tagline {
     text-shadow: 0 0 10px #000;
-    color: #fff;
+    color: #efff0a;
+}
+
+
+
+
+/***************************************ABOUT***********************************/
+address{
+    text-align: center;
+}
+
+
+
+
+/************************************SERVICES***********************************/
+#services{
+    /*background-color: #efff0a;*/
+}
+
+
+
+
+/*************************************CONTACT***********************************/
+#contact{
+    /*background-color: #ddd;*/
 }
 
 .img-center {
     margin: 0 auto;
 }
 
+
+
+/**********************************FOOTER***************************************/
 footer {
     margin: 50px 0;
 }
