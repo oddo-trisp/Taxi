@@ -152,7 +152,8 @@
                 <div><input type="hidden" name="longitude" id="longitude" value="22.425256"></div>
                 <div id="map"></div>
             </center>
-           <iframe scrolling="no" allowtransparency="true" frameborder="0" style="width: 1115px; height: 77px;" src="http://www.weather.gr/widgets/weather_w4.aspx?p1=3146&amp;p2=20744&amp;p3=23263&amp;p4=3144&amp;p5=5"></iframe><a target="blank" style="color: #999999; width: 1115px; display: block; text-align: center; font: 10px/10px Arial,san-serif; text-decoration: none;" href="http://www.weather.gr">πρόγνωση καιρού από το weather.gr</a>
+           <iframe scrolling="no" allowtransparency="true" frameborder="0" style="width: 1115px; height: 77px;"
+           src="http://www.weather.gr/widgets/weather_w4.aspx?p1=3146&amp;p2=20744&amp;p3=23263&amp;p4=3144&amp;p5=5"></iframe>
         </div>
         <!-- /.row -->
 
