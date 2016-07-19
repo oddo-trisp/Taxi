@@ -6,15 +6,8 @@
  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  	<meta name="author" content="Giorgos Apostolopoulos, Odysseas Trispiotis">
  <body>
- <?php
-    session_start();
-?>
-<form method="GET">
-<!-- <form action="<?php echo $_SERVER['PHP_SELF']; ?>">-->
-	<input type="submit" name="en" value="English" />
-	<input type="submit" name="gr" value="Ελληνικά" />
- </form>
 	<?php
+        include 'header.php';
  		if (isset($_REQUEST['en'])){
             //echo ('Hello World');
             $_SESSION['language']='en';
