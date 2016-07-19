@@ -15,7 +15,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
-    <script src="assets/map.js"></script>
+    <script src="assets/js/map.js"></script>
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -140,7 +140,7 @@
             <center>
                 <div><input type="hidden" name="latitude" id="latitude" value="38.431084"></div>
                 <div><input type="hidden" name="longitude" id="longitude" value="22.425256"></div>
-                <div id="map" style="width:1080px; height:380px;"></div>
+                <div id="map"></div>
             </center>
         </div>
         <!-- /.row -->

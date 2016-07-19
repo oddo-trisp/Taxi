@@ -69,11 +69,16 @@ address{
     margin: 0 auto;
 }
 
+#map{
+    width: 90%;
+    height: 380px;
+}
+
 
 
 /**********************************FOOTER***************************************/
 footer {
-    margin: 0;
+    margin: 5% 0 0 0;
     background-color: #333;
     color: #fff;
     text-shadow: 0 0 5px #000;
