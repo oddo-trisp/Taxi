@@ -60,6 +60,11 @@
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
+                <!--<form method="GET" id="lang">-->
+                <form method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                    <input type="image" src="assets/img/grflag.png" name="en" alt="submit" />
+                    <input type="image" src="assets/img/ukflag.png" name="gr" alt="submit" />
+                </form>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -104,6 +109,12 @@
                     <p> <img src="assets/img/icon-phone.jpg" alt="" /> (123) 456-7890 </p>
                     <p> <img src="assets/img/icon-email.jpg" alt="" />  <a href="mailto:#">name@example.com</a>  </p>
                 </address>
+                <div id="social">
+                    <p>
+                    <a href="https://www.facebook.com/giorgos.trismpiotis" target="_blank" title="my facebook page"><img src="assets/img/facebook.png" alt="" /></a>
+                    <a href="http://fokida.travelfind.gr/el/trismpiotis-georgios" target="_blank" title="my facebook page"><img src="assets/img/travel_find.png" alt="" /></a>
+                    </p>
+                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -113,7 +124,7 @@
         <div class="row" id="services">
             <h2>Services:</h2>
             <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
+                <img class="img-circle img-responsive img-center" src="assets/img/taxi.jpg" alt="">
                 <h3>Marketing Box #1</h3>
                 <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
             </div>
@@ -141,6 +152,7 @@
                 <div><input type="hidden" name="longitude" id="longitude" value="22.425256"></div>
                 <div id="map"></div>
             </center>
+           <iframe scrolling="no" allowtransparency="true" frameborder="0" style="width: 1115px; height: 77px;" src="http://www.weather.gr/widgets/weather_w4.aspx?p1=3146&amp;p2=20744&amp;p3=23263&amp;p4=3144&amp;p5=5"></iframe><a target="blank" style="color: #999999; width: 1115px; display: block; text-align: center; font: 10px/10px Arial,san-serif; text-decoration: none;" href="http://www.weather.gr">πρόγνωση καιρού από το weather.gr</a>
         </div>
         <!-- /.row -->
 
