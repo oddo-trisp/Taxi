@@ -73,5 +73,9 @@ address{
 
 /**********************************FOOTER***************************************/
 footer {
-    margin: 50px 0;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    padding-top: 5px;
 }

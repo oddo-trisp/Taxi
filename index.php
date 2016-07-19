@@ -140,7 +140,7 @@
             <center>
                 <div><input type="hidden" name="latitude" id="latitude" value="38.431084"></div>
                 <div><input type="hidden" name="longitude" id="longitude" value="22.425256"></div>
-                <div id="map" style="width:1080px;height:380px;"></div>
+                <div id="map" style="width:1080px; height:380px;"></div>
             </center>
         </div>
         <!-- /.row -->
