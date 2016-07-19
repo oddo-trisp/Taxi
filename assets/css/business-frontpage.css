@@ -30,6 +30,11 @@ h2{
     color: #efff0a;
 }
 
+.glyphicon-envelope, .glyphicon-phone{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
 
 
 

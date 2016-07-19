@@ -101,9 +101,9 @@
                     <br>
                 </address>
                 <address>
-                    <abbr title="Phone">P:</abbr>(123) 456-7890
+                    <b>Phone:</b> (123) 456-7890
                     <br>
-                    <abbr title="Email">E:</abbr> <a href="mailto:#">name@example.com</a>
+                    <b>Email:</b> <a href="mailto:#">name@example.com</a>
                 </address>
             </div>
         </div>
