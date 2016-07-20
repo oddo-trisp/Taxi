@@ -47,8 +47,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-<<<<<<< HEAD
-=======
                 <?php
                     if($_SESSION['language']=='en'){
                         echo ("<a class='navbar-brand' href='#'>Taxi Services</a>");
@@ -57,7 +55,6 @@
                         echo ("<a class='navbar-brand' href='#'>Υπηρεσίες Ταξί</a>");
                     }
                 ?>
->>>>>>> 80a50bfd9e4c3edba458bc6c63449e6d015746c6
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
