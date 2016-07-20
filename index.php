@@ -148,7 +148,7 @@
                     Services that suit your every need, on a  professional, private level.Available in any emegerncy, any time.
                     We take our job seriously, with guaranteed safety and we make sure that you feel as comfortable as possible.
                     Trust us and enjoy travelling with us!!
-                    <p>Sincerly, Giorgos Trismpiotis</p>");
+                    <p><h4>Sincerly, Giorgos Trismpiotis</h4></p>");
                 }
                 else {
                     echo("<h2>Τι Προσφέρουμε</h2>
@@ -157,7 +157,7 @@
                         Μεταφορές από και προς το αεροδόμιο.
                         Παροχή υπηρεσιών που καλύπτει τις ανάγκες σας , επαγγελματικές , προσωπικές και έκτακτες με πλήρη εχεμύθεια.
                         Αναλαμβάνουμε τις μετακινήσεις σας με ασφάλεια και άνεση Εμπιστευτείτε τις μετακινήσεις σας σε εμάς και εσείς απολαύστε την διαδρομή...</p>
-                        <p>Με εκτίμηση, Γιώργος Τρισμπιώτης</p>");
+                        <p><h4>Με εκτίμηση, Γιώργος Τρισμπιώτης<h4></p>");
                 }
             ?>
             </div>
@@ -236,7 +236,7 @@
                                 <div class='col-sm-4'>
                                 <img class='img-circle img-responsive img-center' src='assets/img/taxi.jpg' alt=''>
                                 <h3>Εξυπηρέτηση 24 ώρες τη μέρα</h3>
-                                <p>Ταξί με έδρα την Ιτέα. Προσφέρεται εξυπηρέτηση 24ώρες τη μέρα, μεταφορές εντός & εκτός νομού, παραλαβή και μεταφορά σε οποιοδήποτε μέρος της Ελλάδας αλλά και μεταφορές από και προς το αεροδόμιο και το λιμάνι. </p>
+                                <p>Ταξί με έδρα την Ιτέα. Προσφέρεται εξυπηρέτηση 24ώρες τη μέρα, μεταφορές εντός & εκτός νομού, παραλαβή και μεταφορά σε οποιοδήποτε μέρος της Ελλάδας αλλά και μεταφορές από και προς το αεροδόμιο και το λιμάνι</p>
                                 </div>
                                 <div class='col-sm-4'>
                                 <img class='img-circle img-responsive img-center' src='assets/img/delfi.jpg' alt=''>
@@ -246,11 +246,11 @@
                                 <div class='col-sm-4'>
                                 <img class='img-circle img-responsive img-center' src='assets/img/galaxidi.jpg' alt=''>
                                 <h3>Διοργάνωση Εκδρομών σε όλη την περιοχή</h3>
-                                <p>Διοργανώσεις εκδρομών σε όλες της γραφικές πόλεις και τα χωριά της περιοχής, όπως το όμορφο και γραφικό Γαλαξίδι ή την ξακουστή Αράχοβα με το γνωστό Χιονοδρομικό Κέντρο Παρνασού.</p>
+                                <p>Διοργανώσεις εκδρομών σε όλες της γραφικές πόλεις και τα χωριά της περιοχής, όπως το όμορφο και γραφικό Γαλαξίδι ή την ξακουστή Αράχοβα με το γνωστό Χιονοδρομικό Κέντρο Παρνασού</p>
                                 </div>
                                 <div>
                                     <a href='http://fokida.travelfind.gr/el/info/sightseeing' target='_blank' title='attractions'>
-                                    <h3>Μπορείτε να βρείτε μια λίστα με όλα τα αξιοθέατα και τις ομορφιές τις περιοχή εδώ</h3></a>
+                                    <h3>Μπορείτε να βρείτε μια λίστα με όλα τα αξιοθέατα και τις ομορφιές της περιοχής εδώ</h3></a>
                                 </div>
                                 ");
                     }
@@ -297,7 +297,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Your Website 2016</p>
                 </div>
             </div>
             <!-- /.row -->
