@@ -33,7 +33,16 @@
 </head>
 
 <body>
-
+    <?php
+        session_start();
+        $_SESSION['language']="";
+        if (isset($_REQUEST['en'])){
+            $_SESSION['language']='en';
+        }
+        else if(isset($_REQUEST['gr'])){
+            $_SESSION['language']='gr';
+        }
+    ?>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
@@ -45,24 +54,48 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <?php
+                    if($_SESSION['language'] == 'en'){
+                        echo ("<a class='navbar-brand' href='#'>Taxi Services</a>");
+                    }
+                    else{
+                        echo ("<a class='navbar-brand' href='#'>Υπηρεσίες Ταξί</a>");
+                    }
+                ?>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
+                <?php
+                     if($_SESSION['language'] == 'en'){
+                        echo (" <li>
+                                    <a href='#about'>About</a>
+                                </li>
+                                <li>
+                                    <a href='#services'>Services</a>
+                                </li>
+                                <li>
+                                    <a href='#contact'>Contact</a>
+                                </li>");
+                     }
+                     else{
+                         echo (" <li>
+                                    <a href='#about'>Πληροφορίες</a>
+                                </li>
+                                <li>
+                                    <a href='#services'>Υπηρεσίες</a>
+                                </li>
+                                <li>
+                                    <a href='#contact'>Επικοινωνία</a>
+                                </li>");
+                     }
+                ?>
+                   
                 </ul>
                 <form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                    <input type="image" src="assets/img/grflag.png" name="en" alt="submit" />
-                    <input type="image" src="assets/img/ukflag.png" name="gr" alt="submit" />
+                    <input type="image" src="assets/img/grflag.png" name="gr" value="submit" />
+                    <!--<input type="submit" name="en"/>-->
+                    <input type="image" src="assets/img/ukflag.png" name="en" value="submit" />
                 </form>
                 <!--<form method="GET" id="lang">-->
             </div>
@@ -77,7 +110,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="tagline">Business Name or Tagline</h1>
+                <?php
+                    if ($_SESSION['language'] == 'en'){
+                        echo ("<h1 class='tagline'>Georgios Trismpiotis-Taxi Services</h1>");
+                    }
+                    else{
+                        echo ("<h1 class='tagline'>Γεώργιος Τρισμπιώτης-Υπηρεσίες Ταξί</h1>");
+                    }
+                ?>
                 </div>
             </div>
         </div>
@@ -90,25 +130,60 @@
 
         <div class="row" id="about">
             <div class="col-sm-8">
-                <h2>What We Do</h2>
-                <p>Introduce the visitor to the business using clear, informative text. Use well-targeted keywords within your sentences to make sure search engines can find the business.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae similique eligendi reiciendis sunt distinctio odit? Quia, neque, ipsa, adipisci quisquam ullam deserunt accusantium illo iste exercitationem nemo voluptates asperiores.</p>
+            <?php
+                if ($_SESSION['language'] == 'en'){
+                    
+                    echo ("<h2>What We Do</h2>
+                    <p>24/7 taxi driver from Itea, Fokida. Transportation all around the country, as well as package transportation and package delivery .
+                    Trip organizations, in Archeological sites, Museums, Athena's temple and wherever you desire.
+                    Transportation towards and from the airport at low cost!!
+                    Services that suit your every need, on a  professional, private level.Available in any emegerncy, any time.
+                    We take our job seriously, with guaranteed safety and we make sure that you feel as comfortable as possible.
+                    Trust us and enjoy travelling with us!!
+                    <p>Sincerly, Giorgos Trismpiotis</p>");
+                }
+                else {
+                    echo("<h2>Τι Προσφέρουμε</h2>
+                        <p>Ταξί 24ώρες Ιτέας Μεταφορές εντός & εκτός νομού , παραλαβή και μεταφορά σε οποιοδήποτε μέρος της Ελλάδας.
+                        Διοργανώσεις εκδρομών στον Αρχαιολογικο Χώρο , Μουσείο , τον Ναό της Αθηνάς και σε όποιο άλλο αξιοθέατο θέλετε.
+                        Μεταφορές από και προς το αεροδόμιο.
+                        Παροχή υπηρεσιών που καλύπτει τις ανάγκες σας , επαγγελματικές , προσωπικές και έκτακτες με πλήρη εχεμύθεια.
+                        Αναλαμβάνουμε τις μετακινήσεις σας με ασφάλεια και άνεση Εμπιστευτείτε τις μετακινήσεις σας σε εμάς και εσείς απολαύστε την διαδρομή...</p>
+                        <p>Με εκτίμηση, Γιώργος Τρισμπιώτης</p>");
+                }
+            ?>
+                
                 <p>
                     <a class="btn btn-default btn-lg" href="#">Call to Action &raquo;</a>
                 </p>
             </div>
             <div class="col-sm-4">
-                <h2>Contact Us</h2>
-                <address>
-                    <strong>Start Bootstrap</strong>
-                    <br>3481 Melrose Place
-                    <br>Beverly Hills, CA 90210
-                    <br>
-                </address>
-                <address>
-                    <p> <img src="assets/img/icon-phone.jpg" alt="" /> (123) 456-7890 </p>
-                    <p> <img src="assets/img/icon-email.jpg" alt="" />  <a href="mailto:#">name@example.com</a>  </p>
-                </address>
+                <?php
+                    if ($_SESSION['language'] == 'en'){
+                        echo ("<h2>Contact Us</h2>
+                                <address>
+                                    <strong>Georgios Trismpiotis</strong>
+                                    <br>28is Oktovriou
+                                    <br>Itea, Fokida 33200<br>
+                                </address>
+                                <address>
+                                    <p> <img src='assets/img/icon-phone.jpg' alt='' /> (+30) 694-4988038 </p>
+                                    <p> <img src='assets/img/icon-email.jpg' alt='' />  <a href='mailto:george.itea@gmail.com'>george.itea@gmail.com</a> </p>
+                                </address>");
+                    }
+                    else{
+                        echo ("<h2>Στοιχεία Επικοινωνίας</h2>
+                                <address>
+                                    <strong>Γεώργιος Τρισμπιώτης</strong>
+                                    <br>28ης Οκτωβρίου
+                                    <br>Ιτέα, Φωκίδα 33200<br>
+                                </address>
+                                <address>
+                                    <p> <img src='assets/img/icon-phone.jpg' alt='' /> (+30) 694-4988038 </p>
+                                    <p> <img src='assets/img/icon-email.jpg' alt='' />  <a href='mailto:george.itea@gmail.com'>george.itea@gmail.com</a> </p>
+                                </address>");
+                    }
+                ?>
                 <div id="social">
                     <p>
                     <a href="https://www.facebook.com/giorgos.trismpiotis" target="_blank" title="my facebook page"><img src="assets/img/facebook.png" alt="" /></a>
