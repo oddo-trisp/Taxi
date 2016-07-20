@@ -6,7 +6,7 @@
 
 body {
     text-align: center;
-    font-family: 'raleway';
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 h2{
@@ -91,7 +91,7 @@ address{
     box-shadow: 5px 5px 2px #888;
 }
 
-#map{   
+#map{
     width: 95%;
     height: 380px;
 }

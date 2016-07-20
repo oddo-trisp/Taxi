@@ -11,7 +11,7 @@
 
     <title>Business Frontpage - Start Bootstrap Template</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=greek,latin' rel='stylesheet' type='text/css'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
@@ -47,6 +47,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+<<<<<<< HEAD
+=======
+                <?php
+                    if($_SESSION['language']=='en'){
+                        echo ("<a class='navbar-brand' href='#'>Taxi Services</a>");
+                    }
+                    else{
+                        echo ("<a class='navbar-brand' href='#'>Υπηρεσίες Ταξί</a>");
+                    }
+                ?>
+>>>>>>> 80a50bfd9e4c3edba458bc6c63449e6d015746c6
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -97,7 +108,7 @@
                                 ");
                      }
                 ?>
-                   
+
                 </ul>
                 <!--<form method="GET" id="lang">-->
             </div>
@@ -134,7 +145,7 @@
             <div class="col-sm-8">
             <?php
                 if ($_SESSION['language'] == 'en'){
-                    
+
                     echo ("<h2>What We Do</h2>
                     <p>24/7 taxi driver from Itea, Fokida. Transportation all around the country, as well as package transportation and package delivery .
                     Trip organizations, in Archeological sites, Museums, Athena's temple and wherever you desire.
