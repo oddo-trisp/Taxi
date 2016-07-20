@@ -75,8 +75,12 @@
                                     <a href='#services'>Services</a>
                                 </li>
                                 <li>
-                                    <a href='#contact'>Contact</a>
-                                </li>");
+                                    <a href='#about'>Contact</a>
+                                </li>
+                                 <li>
+                                    <a href='#findus'>Find Us</a>
+                                </li>
+                                ");
                      }
                      else{
                          echo (" <li>
@@ -86,8 +90,12 @@
                                     <a href='#services'>Υπηρεσίες</a>
                                 </li>
                                 <li>
-                                    <a href='#contact'>Επικοινωνία</a>
-                                </li>");
+                                    <a href='#about'>Επικοινωνία</a>
+                                </li>
+                                <li>
+                                    <a href='#findus'>Που θα μας βρείτε</a>
+                                </li>
+                                ");
                      }
                 ?>
                    
@@ -152,10 +160,6 @@
                         <p>Με εκτίμηση, Γιώργος Τρισμπιώτης</p>");
                 }
             ?>
-                
-                <p>
-                    <a class="btn btn-default btn-lg" href="#">Call to Action &raquo;</a>
-                </p>
             </div>
             <div class="col-sm-4">
                 <?php
@@ -170,6 +174,12 @@
                                     <p> <img src='assets/img/icon-phone.jpg' alt='' /> (+30) 694-4988038 </p>
                                     <p> <img src='assets/img/icon-email.jpg' alt='' />  <a href='mailto:george.itea@gmail.com'>george.itea@gmail.com</a> </p>
                                 </address>");
+                        echo ("<div id='social'>
+                                <p>
+                                <a href='https://www.facebook.com/giorgos.trismpiotis' target='_blank' title='my facebook page'><img src='assets/img/facebook.png' alt=''/></a>
+                                <a href='http://fokida.travelfind.gr/en/trismpiotis-georgios' target='_blank' title='travelfind'><img src='assets/img/travel_find.png' alt='' /></a>
+                                 </p>
+                                </div>");
                     }
                     else{
                         echo ("<h2>Στοιχεία Επικοινωνίας</h2>
@@ -182,14 +192,14 @@
                                     <p> <img src='assets/img/icon-phone.jpg' alt='' /> (+30) 694-4988038 </p>
                                     <p> <img src='assets/img/icon-email.jpg' alt='' />  <a href='mailto:george.itea@gmail.com'>george.itea@gmail.com</a> </p>
                                 </address>");
+                        echo ("<div id='social'>
+                                <p>
+                                <a href='https://www.facebook.com/giorgos.trismpiotis' target='_blank' title='my facebook page'><img src='assets/img/facebook.png' alt=''/></a>
+                                <a href='http://fokida.travelfind.gr/el/trismpiotis-georgios' target='_blank' title='travelfind'><img src='assets/img/travel_find.png' alt='' /></a>
+                                 </p>
+                                </div>");
                     }
                 ?>
-                <div id="social">
-                    <p>
-                    <a href="https://www.facebook.com/giorgos.trismpiotis" target="_blank" title="my facebook page"><img src="assets/img/facebook.png" alt="" /></a>
-                    <a href="http://fokida.travelfind.gr/el/trismpiotis-georgios" target="_blank" title="my facebook page"><img src="assets/img/travel_find.png" alt="" /></a>
-                    </p>
-                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -197,28 +207,71 @@
         <hr>
 
         <div class="row" id="services">
-            <h2>Services:</h2>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="assets/img/taxi.jpg" alt="">
-                <h3>Marketing Box #1</h3>
-                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
-            </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="assets/img/delfi.jpg" alt="">
-                <h3>Marketing Box #2</h3>
-                <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-            </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="assets/img/galaxidi.jpg" alt="">
-                <h3>Marketing Box #3</h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-            </div>
+             <?php
+                    if ($_SESSION['language'] == 'en'){
+                        echo ("<h2>Services:</h2>
+                                <div class='col-sm-4'>
+                                <img class='img-circle img-responsive img-center' src='assets/img/taxi.jpg' alt=''>
+                                <h3>Services 24 hours a day</h3>
+                                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+                                </div>
+                                <div class='col-sm-4'>
+                                <img class='img-circle img-responsive img-center' src='assets/img/delfi.jpg' alt=''>
+                                <h3>Marketing Box #2</h3>
+                                <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                                </div>
+                                <div class='col-sm-4'>
+                                <img class='img-circle img-responsive img-center' src='assets/img/galaxidi.jpg' alt=''>
+                                <h3>Marketing Box #3</h3>
+                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                                </div>
+                                <div>
+                                    <a href='http://fokida.travelfind.gr/en/info/sightseeing' target='_blank' title='attractions'>
+                                    <h3>You can find a list of all local attractions and all beauties here</h3></a>
+                                </div>
+                                ");
+                    }
+                    else{
+                        echo ("<h2>Υπηρεσίες:</h2>
+                                <div class='col-sm-4'>
+                                <img class='img-circle img-responsive img-center' src='assets/img/taxi.jpg' alt=''>
+                                <h3>Εξυπηρέτηση 24 ώρες τη μέρα</h3>
+                                <p>Ταξί με έδρα την Ιτέα. Προσφέρεται εξυπηρέτηση 24ώρες τη μέρα, μεταφορές εντός & εκτός νομού, παραλαβή και μεταφορά σε οποιοδήποτε μέρος της Ελλάδας αλλά και μεταφορές από και προς το αεροδόμιο και το λιμάνι. </p>
+                                </div>
+                                <div class='col-sm-4'>
+                                <img class='img-circle img-responsive img-center' src='assets/img/delfi.jpg' alt=''>
+                                <h3>Διοργάνωση Εκδρομών σε Αξιοθέατα</h3>
+                                <p>Διοργανώσεις εκδρομών σε όλα τα αξιοθέατα της περιοχής, όπως ο Ναός της Αθηνάς στους Δελφούς, το Ναυτικό Μουσείο στο Γαλαξίδι ή το γραφικό κάστο στην Άμφισσα αλλά και όπου αλλού θέλετε</p>
+                                </div>
+                                <div class='col-sm-4'>
+                                <img class='img-circle img-responsive img-center' src='assets/img/galaxidi.jpg' alt=''>
+                                <h3>Διοργάνωση Εκδρομών σε όλη την περιοχή</h3>
+                                <p>Διοργανώσεις εκδρομών σε όλες της γραφικές πόλεις και τα χωριά της περιοχής, όπως το όμορφο και γραφικό Γαλαξίδι ή την ξακουστή Αράχοβα με το γνωστό Χιονοδρομικό Κέντρο Παρνασού.</p>
+                                </div>
+                                <div>
+                                    <a href='http://fokida.travelfind.gr/el/info/sightseeing' target='_blank' title='attractions'>
+                                    <h3>Μπορείτε να βρείτε μια λίστα με όλα τα αξιοθέατα και τις ομορφιές τις περιοχή εδώ</h3></a>
+                                </div>
+                                ");
+                    }
+            ?>
         </div>
 
         <hr>
 
-        <div class="row" id="contact">
-            <h2>Find Us:</h2>
+        <div class="row" id="findus">
+            <?php
+                    if($_SESSION['language'] == 'en'){
+                        echo ("<h2>Find Us:</h2>
+                                <h3>28is Oktovriou, Itea, Fokida, Greece</h3>
+                            ");
+                    }
+                    else{
+                        echo ("<h2>Που θα μας βρείτε:</h2>
+                                <h3>28ης Οκτωβρίου, Ιτέα Φωκίδος</h3>
+                            ");
+                    }
+            ?>
             <!--<a href="http://www.accuweather.com/en/gr/itea/183561/weather-forecast/183561" class="aw-widget-legal"></a>
             <div id="awcc1468922819136" class="aw-widget-current"  data-locationkey="183561" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1468922819136"></div>
             <script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>-->
@@ -227,7 +280,16 @@
                 <div><input type="hidden" name="longitude" id="longitude" value="22.425256"></div>
                 <div id="map"></div>
             </center>
-           <iframe scrolling="no" allowtransparency="true" frameborder="0" style="width: 1115px; height: 77px;" src="http://www.weather.gr/en/widgets/weather_w4.aspx?p1=3146&amp;p2=20744&amp;p3=3145&amp;p4=3144&amp;p5=5"></iframe>
+            <?php
+                    if($_SESSION['language'] == 'en'){
+                        echo (" <iframe scrolling='no' allowtransparency='true' frameborder='0' style='width: 1115px; height: 77px;'
+                            src='http://www.weather.gr/en/widgets/weather_w4.aspx?p1=3146&amp;p2=20744&amp;p3=3145&amp;p4=3144&amp;p5=5'></iframe>");
+                    }
+                    else{
+                        echo ("<iframe scrolling='no' allowtransparency='true' frameborder='0' style='width: 1115px; height: 77px;'
+                            src='http://www.weather.gr/widgets/weather_w4.aspx?p1=3146&amp;p2=20744&amp;p3=23263&amp;p4=3144&amp;p5=5'></iframe>");
+                    }
+            ?>
         </div>
         <!-- /.row -->
 
