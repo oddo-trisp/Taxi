@@ -176,8 +176,8 @@
                                 </address>");
                         echo ("<div id='social'>
                                 <p>
-                                <a href='https://www.facebook.com/giorgos.trismpiotis' target='_blank' title='my facebook page'><img src='assets/img/facebook.png' alt=''/></a>
-                                <a href='http://fokida.travelfind.gr/en/trismpiotis-georgios' target='_blank' title='travelfind'><img src='assets/img/travel_find.png' alt='' /></a>
+                                <a href='https://www.facebook.com/giorgos.trismpiotis' target='_blank' title='my facebook page'><img class='img-circle' src='assets/img/facebook.png' alt=''/></a>
+                                <a href='http://fokida.travelfind.gr/en/trismpiotis-georgios' target='_blank' title='travelfind'><img class='img-circle' src='assets/img/travel_find.png' alt='' /></a>
                                  </p>
                                 </div>");
                     }
@@ -194,8 +194,8 @@
                                 </address>");
                         echo ("<div id='social'>
                                 <p>
-                                <a href='https://www.facebook.com/giorgos.trismpiotis' target='_blank' title='my facebook page'><img src='assets/img/facebook.png' alt=''/></a>
-                                <a href='http://fokida.travelfind.gr/el/trismpiotis-georgios' target='_blank' title='travelfind'><img src='assets/img/travel_find.png' alt='' /></a>
+                                <a href='https://www.facebook.com/giorgos.trismpiotis' target='_blank' title='my facebook page'><img class='img-circle' src='assets/img/facebook.png' alt=''/></a>
+                                <a href='http://fokida.travelfind.gr/el/trismpiotis-georgios' target='_blank' title='travelfind'><img class='img-circle' src='assets/img/travel_find.png' alt='' /></a>
                                  </p>
                                 </div>");
                     }
