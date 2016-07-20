@@ -60,11 +60,11 @@
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
-                <!--<form method="GET" id="lang">-->
-                <form method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                <form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                     <input type="image" src="assets/img/grflag.png" name="en" alt="submit" />
                     <input type="image" src="assets/img/ukflag.png" name="gr" alt="submit" />
                 </form>
+                <!--<form method="GET" id="lang">-->
             </div>
             <!-- /.navbar-collapse -->
         </div>

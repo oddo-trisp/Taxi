@@ -21,10 +21,11 @@ h2{
 }
 
 .navbar #lang input{
-    float: right;
-    margin-top: 10px;
-     height: 3%;
-    width: 3%;
+/*    float: right;
+    margin-top: 10px; */
+     height: 22px;
+    width: 25px;
+    margin-top: 25%;
 }
 
 
@@ -66,6 +67,7 @@ address{
     width: 54px;
     height: 54px;
     margin-right: 8px;
+    box-shadow: 2px 2px 1px #888;
 }
 
 
@@ -85,6 +87,8 @@ address{
 
 .img-center {
     margin: 0 auto;
+    border: 2px solid #efff0a;
+    box-shadow: 5px 5px 2px #888;
 }
 
 #map{
