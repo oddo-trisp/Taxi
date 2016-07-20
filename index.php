@@ -11,7 +11,7 @@
 
     <title>Business Frontpage - Start Bootstrap Template</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=greek,latin' rel='stylesheet' type='text/css'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
@@ -55,7 +55,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <?php
-                    if($_SESSION['language'] == 'en'){
+                    if($_SESSION['language']=='en'){
                         echo ("<a class='navbar-brand' href='#'>Taxi Services</a>");
                     }
                     else{
@@ -98,7 +98,7 @@
                                 ");
                      }
                 ?>
-                   
+
                 </ul>
                 <form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                     <input type="image" src="assets/img/grflag.png" name="gr" value="submit" />
@@ -140,7 +140,7 @@
             <div class="col-sm-8">
             <?php
                 if ($_SESSION['language'] == 'en'){
-                    
+
                     echo ("<h2>What We Do</h2>
                     <p>24/7 taxi driver from Itea, Fokida. Transportation all around the country, as well as package transportation and package delivery .
                     Trip organizations, in Archeological sites, Museums, Athena's temple and wherever you desire.
