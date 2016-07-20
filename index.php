@@ -35,13 +35,6 @@
 <body>
     <?php
         session_start();
-        $_SESSION['language']="";
-        if (isset($_REQUEST['en'])){
-            $_SESSION['language']='en';
-        }
-        else if(isset($_REQUEST['gr'])){
-            $_SESSION['language']='gr';
-        }
     ?>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -54,19 +47,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <?php
-                    if($_SESSION['language'] == 'en'){
-                        echo ("<a class='navbar-brand' href='#'>Taxi Services</a>");
-                    }
-                    else{
-                        echo ("<a class='navbar-brand' href='#'>Υπηρεσίες Ταξί</a>");
-                    }
-                ?>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
+
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <<form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                    <input type="image" src="assets/img/grflag.png" name="gr" value="submit" alt="submit" />
+                    <!--<input type="submit" name="gr" class="gr" />-->
+                    <!--<input type="submit" name="en" class="en" />-->
+                    <input type="image" src="assets/img/ukflag.png" name="en" value="submit" alt="submit" />
+                </form>
                 <ul class="nav navbar-nav">
                 <?php
+                    $_SESSION['language']="";
+                    if (isset($_REQUEST['en_x'])){
+                        $_SESSION['language']='en';
+                    }
+                    else if(isset($_REQUEST['gr_x'])){
+                        $_SESSION['language']='gr';
+                    }
                      if($_SESSION['language'] == 'en'){
                         echo (" <li>
                                     <a href='#about'>About</a>
@@ -100,11 +99,6 @@
                 ?>
                    
                 </ul>
-                <form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                    <input type="image" src="assets/img/grflag.png" name="gr" value="submit" />
-                    <!--<input type="submit" name="en"/>-->
-                    <input type="image" src="assets/img/ukflag.png" name="en" value="submit" />
-                </form>
                 <!--<form method="GET" id="lang">-->
             </div>
             <!-- /.navbar-collapse -->
