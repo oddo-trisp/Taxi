@@ -219,15 +219,15 @@
                                 </div>
                                 <div class='col-sm-4'>
                                 <img class='img-circle img-responsive img-center' src='assets/img/delfi.jpg' alt=''>
-                                <h3>Marketing Box #2</h3>
+                                <h3>Organized Tours Sightseeing</h3>
                                 <p>Tour events to all area attractions, such as the Temple of Athena in Delphi, the Naval Museum of Galaxidi, the graphic castle in Amfissa and wherever else you may want.</p>
                                 </div>
                                 <div class='col-sm-4'>
                                 <img class='img-circle img-responsive img-center' src='assets/img/galaxidi.jpg' alt=''>
-                                <h3>Marketing Box #3</h3>
+                                <h3>Organized Tours throughout the region</h3>
                                 <p>Tour events in all its picturesque towns and villages, such as the beautiful town of Galaxidi or the famous Arachova with the famous Parnassos Ski Center.</p>
                                 </div>
-                                <div>
+                                <div class='col-sm-12'>
                                     <a href='http://fokida.travelfind.gr/en/info/sightseeing' target='_blank' title='attractions'>
                                     <h3>You can find a list of all local attractions and all beauties here</h3></a>
                                 </div>
@@ -250,7 +250,7 @@
                                 <h3>Διοργάνωση Εκδρομών σε όλη την περιοχή</h3>
                                 <p>Διοργανώσεις εκδρομών σε όλες της γραφικές πόλεις και τα χωριά της περιοχής, όπως το όμορφο και γραφικό Γαλαξίδι ή την ξακουστή Αράχοβα με το γνωστό Χιονοδρομικό Κέντρο Παρνασού</p>
                                 </div>
-                                <div>
+                                <div class='col-sm-12'>
                                     <a href='http://fokida.travelfind.gr/el/info/sightseeing' target='_blank' title='attractions'>
                                     <h3>Μπορείτε να βρείτε μια λίστα με όλα τα αξιοθέατα και τις ομορφιές της περιοχής εδώ</h3></a>
                                 </div>
