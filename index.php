@@ -121,7 +121,7 @@
             <div class="row">
                 <div class="col-lg-12">
                 <?php
-                    if ($_SESSION['language'] == 'en'){
+                    if ($_SESSION['language'] == 'gr'){
                         echo ("<h1 class='tagline'>Georgios Trismpiotis-Taxi Services</h1>");
                     }
                     else{
@@ -215,17 +215,17 @@
                                 <div class='col-sm-4'>
                                 <img class='img-circle img-responsive img-center' src='assets/img/taxi.jpg' alt=''>
                                 <h3>Services 24 hours a day</h3>
-                                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+                                <p>Taxi based in Itea. Service is offered 24 hours a day and it includes transportation within and outside the county, reception and transfer to any part of Greece and transport to and from the port and the airport.</p>
                                 </div>
                                 <div class='col-sm-4'>
                                 <img class='img-circle img-responsive img-center' src='assets/img/delfi.jpg' alt=''>
                                 <h3>Marketing Box #2</h3>
-                                <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                                <p>Tour events to all area attractions, such as the Temple of Athena in Delphi, the Naval Museum of Galaxidi, the graphic castle in Amfissa and wherever else you may want.</p>
                                 </div>
                                 <div class='col-sm-4'>
                                 <img class='img-circle img-responsive img-center' src='assets/img/galaxidi.jpg' alt=''>
                                 <h3>Marketing Box #3</h3>
-                                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                                <p>Tour events in all its picturesque towns and villages, such as the beautiful town of Galaxidi or the famous Arachova with the famous Parnassos Ski Center.</p>
                                 </div>
                                 <div>
                                     <a href='http://fokida.travelfind.gr/en/info/sightseeing' target='_blank' title='attractions'>
