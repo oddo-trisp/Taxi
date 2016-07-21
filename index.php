@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Frontpage - Start Bootstrap Template</title>
+    <title>Georgios Trismpiotis-Taxi</title>
 
     <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=greek,latin' rel='stylesheet' type='text/css'>
 
@@ -66,7 +66,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <<form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                <form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                     <input type="image" src="assets/img/grflag.png" name="gr" value="submit" alt="submit" />
                     <!--<input type="submit" name="gr" class="gr" />-->
                     <!--<input type="submit" name="en" class="en" />-->
@@ -121,7 +121,7 @@
             <div class="row">
                 <div class="col-lg-12">
                 <?php
-                    if ($_SESSION['language'] == 'gr'){
+                    if ($_SESSION['language'] == 'en'){
                         echo ("<h1 class='tagline'>Georgios Trismpiotis-Taxi Services</h1>");
                     }
                     else{
