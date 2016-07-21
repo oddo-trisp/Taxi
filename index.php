@@ -48,6 +48,13 @@
                     <span class="icon-bar"></span>
                 </button>
                 <?php
+                	$_SESSION['language']="";
+                    if (isset($_REQUEST['en_x'])){
+                        $_SESSION['language']='en';
+                    }
+                    else if(isset($_REQUEST['gr_x'])){
+                        $_SESSION['language']='gr';
+                    }
                     if($_SESSION['language']=='en'){
                         echo ("<a class='navbar-brand' href='#'>Taxi Services</a>");
                     }
@@ -67,13 +74,6 @@
                 </form>
                 <ul class="nav navbar-nav">
                 <?php
-                    $_SESSION['language']="";
-                    if (isset($_REQUEST['en_x'])){
-                        $_SESSION['language']='en';
-                    }
-                    else if(isset($_REQUEST['gr_x'])){
-                        $_SESSION['language']='gr';
-                    }
                      if($_SESSION['language'] == 'en'){
                         echo (" <li>
                                     <a href='#about'>About</a>
