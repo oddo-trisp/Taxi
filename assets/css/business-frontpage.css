@@ -40,8 +40,8 @@ h2{
 }
 
 .tagline {
-    text-shadow: 0 0 10px #000;
-    color: #efff0a;
+    text-shadow: 5px 5px 5px #000;
+    color: #dcec60; /*#efff0a;*/
 }
 
 .glyphicon-envelope, .glyphicon-phone{
@@ -53,8 +53,12 @@ h2{
 
 
 /***************************************ABOUT***********************************/
-address{
+#about address{
     text-align: center;
+}
+
+#about address a:hover{
+    text-decoration: none;
 }
 
 #about img{
@@ -69,8 +73,6 @@ address{
     margin-right: 8px;
     box-shadow: 2px 2px 1px #888;
 }
-
-
 
 /************************************SERVICES***********************************/
 #services{
@@ -87,13 +89,21 @@ address{
 
 .img-center {
     margin: 0 auto;
-    border: 2px solid #efff0a;
+    border: 3px solid #dcec60; /*#efff0a;*/
     box-shadow: 5px 5px 2px #888;
 }
 
 #map{
     width: 95%;
     height: 380px;
+    border: 1px solid #dcec60;
+    border-radius: 25px;
+    margin-bottom: 2px;
+}
+
+iframe{
+    border: 1px solid #dcec60;
+    border-radius: 25px;
 }
 
 

@@ -12,6 +12,7 @@
     <title>Georgios Trismpiotis-Taxi</title>
 
     <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=greek,latin' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Noto+Serif&subset=greek,latin' rel='stylesheet' type='text/css'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
