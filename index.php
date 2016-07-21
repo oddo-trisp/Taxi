@@ -22,7 +22,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="assets/css/business-frontpage.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -300,7 +300,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2016</p>
+                    <p> Copyright 2013-2016 @ Blackrock Digital LLC. Modified by <a href="https://github.com/giorgos-apo">George Apostolopoulos</a> & <a href="https://github.com/oddo-trisp">Odysseas Trispiotis</a> </p>
                 </div>
             </div>
             <!-- /.row -->
