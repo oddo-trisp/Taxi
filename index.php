@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="24/7 taxi driver from Itea, Fokida. Transportation all around the country, as well as package transportation and package delivery . Trip organizations, in Archeological sites, Museums, Athena's temple in Delphi and wherever you desire. Transportation towards and from the airport at low cost!!">
+    <meta name="description" content="24/7 taxi driver from Itea, Fokida only some minutes away from Delphi, Arachova and Galaxidi. Transportation all around the country, as well as package transportation and package delivery . Trip organizations, in Archeological sites, Museums, Athena's temple in Delphi and wherever you desire. Transportation towards and from the airport at low cost!!">
     <meta name="author" content="George Apostolopoulos, Odysseas Trispiotis">
 
     <title>Taxi-Delphi</title>
