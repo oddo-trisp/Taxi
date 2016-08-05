@@ -15,7 +15,7 @@
     <link href='https://fonts.googleapis.com/css?family=Noto+Serif&subset=greek,latin' rel='stylesheet' type='text/css'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD9ouIgaiT41g9LDr_ERhadhYMFNVPc5qA&callback=initMap" async defer"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD9ouIgaiT41g9LDr_ERhadhYMFNVPc5qA" async defer"></script>
     <script src="assets/js/map.js"></script>
 
     <!-- Bootstrap Core CSS -->
