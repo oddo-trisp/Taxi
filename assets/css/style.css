@@ -30,6 +30,14 @@ h2{
     margin-top: 25%;
 }
 
+.navbar .navbar-brand {
+    color: #dcec60;
+}
+
+.navbar .navbar-brand:hover{
+    color: #dccb44;
+}
+
 
 /****************************************HEADER*********************************/
 .business-header {
