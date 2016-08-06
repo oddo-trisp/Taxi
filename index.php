@@ -1,19 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @oddo-trisp
- Unwatch 2
-  Star 1
-  Fork 0 oddo-trisp/Taxi
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathTaxi/index.php
-9cc25df  3 hours ago
-@giorgos-apo giorgos-apo flags on the right position
-2 contributors @oddo-trisp @giorgos-apo
-RawBlameHistory     323 lines (294 sloc)  18.3 KB
 <!DOCTYPE html>
 <html lang="en">
 
