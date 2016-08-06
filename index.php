@@ -298,5 +298,3 @@
     <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
