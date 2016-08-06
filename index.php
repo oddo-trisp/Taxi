@@ -1,3 +1,19 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @oddo-trisp
+ Unwatch 2
+  Star 1
+  Fork 0 oddo-trisp/Taxi
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathTaxi/index.php
+9cc25df  3 hours ago
+@giorgos-apo giorgos-apo flags on the right position
+2 contributors @oddo-trisp @giorgos-apo
+RawBlameHistory     323 lines (294 sloc)  18.3 KB
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,22 +33,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD9ouIgaiT41g9LDr_ERhadhYMFNVPc5qA&callback=initialize" async defer"></script>
     <script src="assets/js/map.js"></script>
-
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
-
 <body>
     <?php
         session_start();
@@ -49,7 +60,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <?php
-                	$_SESSION['language']="";
+                    $_SESSION['language']="";
                     if (isset($_REQUEST['en_x'])){
                         $_SESSION['language']='en';
                     }
@@ -63,13 +74,8 @@
                         echo ("<a class='navbar-brand' href='#'>Υπηρεσίες Ταξί</a>");
                     }
                 ?>
-                 <form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                    <input type="image" src="assets/img/grflag.png" name="gr" value="submit" alt="submit" />
-                    <input type="image" src="assets/img/ukflag.png" name="en" value="submit" alt="submit" />
-                </form>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
                 <ul class="nav navbar-nav">
@@ -105,16 +111,17 @@
                                 ");
                      }
                 ?>
-
                 </ul>
-               
+                <form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                    <input type="image" src="assets/img/grflag.png" name="gr" value="submit" alt="submit" />
+                    <input type="image" src="assets/img/ukflag.png" name="en" value="submit" alt="submit" />
+                </form>
                 <!--<form method="GET" id="lang">-->
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-
     <!-- Image Background Page Header -->
     <!-- Note: The background image is set within the business-casual.css file. -->
     <header class="business-header">
@@ -133,17 +140,13 @@
             </div>
         </div>
     </header>
-
     <!-- Page Content -->
     <div class="container">
-
         <hr>
-
         <div class="row" id="about">
             <div class="col-sm-6">
             <?php
                 if ($_SESSION['language'] == 'en'){
-
                     echo ("<h2>What We Offer</h2>
                     <p>24/7 taxi driver from Itea, Fokida. Transportation all around the country, as well as package transportation and package delivery .
                     Trip organizations, in Archeological sites, Museums, Athena's temple and wherever you desire.
@@ -209,9 +212,7 @@
             </div>
         </div>
         <!-- /.row -->
-
         <hr>
-
         <div class="row" id="services">
              <?php
                     if ($_SESSION['language'] == 'en'){
@@ -262,9 +263,7 @@
                     }
             ?>
         </div>
-
         <hr>
-
         <div class="row" id="findus">
             <?php
                     if($_SESSION['language'] == 'en'){
@@ -298,7 +297,6 @@
             ?>
         </div>
         <!-- /.row -->
-
         <!-- Footer -->
         <footer>
             <div class="row">
@@ -308,16 +306,13 @@
             </div>
             <!-- /.row -->
         </footer>
-
     </div>
     <!-- /.container -->
-
     <!-- jQuery -->
     <script src="assets/js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
-
 </body>
-
 </html>
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
