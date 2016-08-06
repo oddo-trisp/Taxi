@@ -281,7 +281,7 @@
             <!--<a href="http://www.accuweather.com/en/gr/itea/183561/weather-forecast/183561" class="aw-widget-legal"></a>
             <div id="awcc1468922819136" class="aw-widget-current"  data-locationkey="183561" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1468922819136"></div>
             <script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>-->
-            <center>
+            <center class="col-sm-12">
                 <div><input type="hidden" name="latitude" id="latitude" value="38.431084"></div>
                 <div><input type="hidden" name="longitude" id="longitude" value="22.425256"></div>
                 <div id="map"></div>
