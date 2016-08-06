@@ -205,7 +205,7 @@
                 ?>
             </div>
             <div class="col-sm-3">
-                <img src="assets/img/delfi.jpg" class="mypic">
+                <img src="assets/img/me.jpg" class="mypic">
             </div>
         </div>
         <!-- /.row -->
