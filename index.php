@@ -63,10 +63,6 @@
                         echo ("<a class='navbar-brand' href='#'>Υπηρεσίες Ταξί</a>");
                     }
                 ?>
-                 <form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                    <input type="image" src="assets/img/grflag.png" name="gr" value="submit" alt="submit" />
-                    <input type="image" src="assets/img/ukflag.png" name="en" value="submit" alt="submit" />
-                </form>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -107,7 +103,10 @@
                 ?>
 
                 </ul>
-               
+                <form class="pull-right" method="GET" id="lang" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                    <input type="image" src="assets/img/grflag.png" name="gr" value="submit" alt="submit" />
+                    <input type="image" src="assets/img/ukflag.png" name="en" value="submit" alt="submit" />
+                </form>
                 <!--<form method="GET" id="lang">-->
             </div>
             <!-- /.navbar-collapse -->
