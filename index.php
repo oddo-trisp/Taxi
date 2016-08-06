@@ -140,11 +140,11 @@
         <hr>
 
         <div class="row" id="about">
-            <div class="col-sm-8">
+            <div class="col-sm-6">
             <?php
                 if ($_SESSION['language'] == 'en'){
 
-                    echo ("<h2>What We Do</h2>
+                    echo ("<h2>What We Offer</h2>
                     <p>24/7 taxi driver from Itea, Fokida. Transportation all around the country, as well as package transportation and package delivery .
                     Trip organizations, in Archeological sites, Museums, Athena's temple and wherever you desire.
                     Transportation towards and from the airport at low cost!!
@@ -164,7 +164,7 @@
                 }
             ?>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <?php
                     if ($_SESSION['language'] == 'en'){
                         echo ("<h2>Contact Us</h2>
@@ -203,6 +203,9 @@
                                 </div>");
                     }
                 ?>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/img/delfi.jpg" class="mypic">
             </div>
         </div>
         <!-- /.row -->

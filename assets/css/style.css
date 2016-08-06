@@ -10,8 +10,10 @@ body {
 }
 
 h2{
-    margin-bottom: 3%;
+    margin-top: 0;
+    margin-bottom: 4%;
 }
+
 
 
 /*********************************NAVBAR****************************************/
@@ -72,6 +74,12 @@ h2{
     height: 54px;
     margin-right: 8px;
     box-shadow: 2px 2px 1px #888;
+}
+
+#about .mypic{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
 }
 
 /************************************SERVICES***********************************/
